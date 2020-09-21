@@ -28,11 +28,6 @@ def process_text(input):
             assistant_speaks(speak) 
             return
   
-        elif "geeksforgeeks" in input:# just 
-            speak = """Geeks for Geeks is the Best Online Coding Platform for learning."""
-            assistant_speaks(speak) 
-            return
-  
         elif "calculate" in input.lower(): 
               
             # write your wolframalpha app_id here 
